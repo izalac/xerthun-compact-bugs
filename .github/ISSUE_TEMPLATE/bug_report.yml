@@ -46,8 +46,8 @@ body:
       description: Please list the steps needed to trigger the bug.
       placeholder: |
         1. Start the game
-        2. Enter the Xer'Thun ruins
-        3. Interact with the obelisk
+        2. Travel to a new system
+        3. Accept a contract
         4. Game freezes
     validations:
       required: true
