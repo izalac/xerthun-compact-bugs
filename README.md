@@ -45,7 +45,7 @@ This board is public so players can follow development progress.
 
 ## 🔗 Links
 
-- Game page: https://izalac.itch.io/
+- Game page: https://izalac.itch.io/the-xerthun-compact
 - Project board: https://github.com/users/izalac/projects/4
 
 Thanks for helping improve **The Xer'Thun Compact**.
