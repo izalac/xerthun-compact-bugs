@@ -1,0 +1,74 @@
+name: Bug Report
+description: Report a problem you encountered while playing The Xer'Thun Compact.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report a bug in **The Xer'Thun Compact**.  
+        Please fill out the details below so we can reproduce and fix the issue.
+
+  - type: input
+    id: version
+    attributes:
+      label: Game Version
+      description: The version shown on the title screen or itch.io download page.
+      placeholder: e.g. v1.0.0
+    validations:
+      required: true
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Web (Browser)
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: What happened? What did you expect to happen instead?
+      placeholder: A clear and concise description of the issue.
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to Reproduce
+      description: Please list the steps needed to trigger the bug.
+      placeholder: |
+        1. Start the game
+        2. Enter the Xer'Thun ruins
+        3. Interact with the obelisk
+        4. Game freezes
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / Crash Output (optional)
+      description: If the game produced logs, crash messages, or console output, paste it here.
+      render: text
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots (optional)
+      description: Drag and drop images here if they help illustrate the issue.
+
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Confirmation
+      options:
+        - label: I have searched existing issues to avoid duplicates.
+          required: true
