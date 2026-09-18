@@ -22,10 +22,11 @@ body:
     attributes:
       label: Platform
       options:
+        - Web (Browser)
         - Windows
         - Linux
         - macOS
-        - Web (Browser)
+        - Android
         - Other
     validations:
       required: true
